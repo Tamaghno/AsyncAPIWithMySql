@@ -73,6 +73,12 @@
 			<artifactId>r2dbc-mysql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>5.3.30</version>
+			<scope>test</scope>
+		</dependency>
 
 
 	</dependencies>

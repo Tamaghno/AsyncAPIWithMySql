@@ -20,6 +20,17 @@ public class Book {
 
     public String author;
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", author='" + author + '\'' +
+                '}';
+    }
+
     public Book(int bookId, String name, String description, String publisher, String author) {
         this.bookId = bookId;
         this.name = name;
